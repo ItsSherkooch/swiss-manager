@@ -5,8 +5,8 @@ import { useDispatch } from 'react-redux';
 import AlertModal from '../components/AlertModal'; 
 
 export default function HomePage() {
-  const dispatch = useDispatch();
-  const navigate = useNavigate();
+  const dispatch = useDispatch()
+  const navigate = useNavigate()
   const [modalOpen, setModalOpen] = useState(false);
 
   function submitHandler(event) {
