@@ -25,7 +25,7 @@ export default function HomePage() {
   }
 
   return (
-    <div className='flex justify-center items-center border-red-500'>
+    <div className='flex justify-center items-center border-red-500 bg-red-600'>
       <form onSubmit={submitHandler}>
         <div className='flex justify-center items-center gap-2 border-2 p-5 rounded mb-10'>
           <label>Enter the number of rounds:</label>
